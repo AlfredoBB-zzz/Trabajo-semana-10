@@ -18,4 +18,15 @@ for i in range (Ndias):
     #Venta validada
     acumuladorVentas += ventas
 #SALIDA
+
+
+Dias = int(input("Ingrese la 2da cantidad de días: \t"))
+
+Tridias = int(input("Ingrese la 3da cantidad de dias: \t"))
+
+suma = Dias + Tridias
+
 print(f"En {Ndias} dias, el total acumulado fue: {acumuladorVentas}")
+print(f"La 2da cantidad de Dias es de {Dias}")
+print(f"La 3ra cantidad de dias es de {Tridias}")
+print(f"La suma de la 2da y 3ra cantidad de dias es de: {suma}")
